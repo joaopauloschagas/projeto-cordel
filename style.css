@@ -2,10 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Permanent+Marker&family=Raleway:ital,wght@1,500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Permanent+Marker&family=Raleway:ital,wght@1,500&family=Sriracha&display=swap');
 
 :root {
-    --fonte1: Verdana, Geneva, Tahoma, sans serfi;
+    --fonte1: Verdana, Geneva, Tahoma, sans serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
@@ -65,7 +65,7 @@ section > p {
 
 section.normal {
     background-color: white;
-    color: black;
+    color: white;
 }
 
 section.imagem {
@@ -86,17 +86,19 @@ section.imagem > p {
 section#img01 {
     background-image: url('img/background001.jpg');
     background-position: right center;
+
 }
 
 section#img02 {
-    background-image: url('img/background002.jpg')
+    background-image: url('img/background002.jpg');
+    
 }
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    
 }
 
 
